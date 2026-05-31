@@ -20,10 +20,11 @@ final_payment=total+tax
 
 #Output
 
-print("--- Gym Membership Invoice ---")
+print("\n--- Gym Membership Invoice ---")
 
-print(f"Total: $",total)
-
-print(f"Tax : $",tax)
-print(f"Final payment: $",final_payment)
+print(f"Total: Rs{total:.2f}")
+print(f"Tax : Rs{tax:.2f}")
+print(f"Final payment: Rs{final_payment:.2f}")
 print(f"Thank you!")
+
+
